@@ -1,0 +1,70 @@
+Microsoft Windows [Version 10.0.19045.4651]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\ADMIN>cd..
+
+C:\Users>cd..
+
+C:\>cd snort
+
+C:\Snort>dir
+ Volume in drive C has no label.
+ Volume Serial Number is DA36-644C
+
+ Directory of C:\Snort
+
+31-07-2024  06:50    <DIR>          .
+31-07-2024  06:50    <DIR>          ..
+31-07-2024  06:50    <DIR>          bin
+31-07-2024  06:50    <DIR>          doc
+31-07-2024  06:50    <DIR>          etc
+31-07-2024  06:50    <DIR>          lib
+31-07-2024  06:50    <DIR>          log
+31-07-2024  06:50    <DIR>          preproc_rules
+31-07-2024  06:50    <DIR>          rules
+31-07-2024  06:50            52,666 Uninstall.exe
+               1 File(s)         52,666 bytes
+               9 Dir(s)  208,477,487,104 bytes free
+
+C:\Snort>cd bin
+
+C:\Snort\bin>dir
+ Volume in drive C has no label.
+ Volume Serial Number is DA36-644C
+
+ Directory of C:\Snort\bin
+
+31-07-2024  06:50    <DIR>          .
+31-07-2024  06:50    <DIR>          ..
+20-04-2022  07:15            54,784 npptools.dll
+20-04-2022  07:15           274,489 ntwdblib.dll
+20-04-2022  07:15            36,948 Packet.dll
+20-04-2022  07:15            94,208 pcre.dll
+23-05-2022  21:51         1,559,552 snort.exe
+20-04-2022  07:15            53,326 WanPacket.dll
+20-04-2022  07:15           208,974 wpcap.dll
+20-04-2022  07:15            73,728 zlib1.dll
+               8 File(s)      2,356,009 bytes
+               2 Dir(s)  208,477,421,568 bytes free
+
+C:\Snort\bin>snort.exe
+Running in packet dump mode
+
+        --== Initializing Snort ==--
+Initializing Output Plugins!
+pcap DAQ configured to passive.
+The DAQ version does not support reload.
+Acquiring network traffic from "\Device\NPF_{3B16A9D6-FC6F-4CEB-A508-258F98D073C8}".
+Decoding Ethernet
+
+        --== Initialization Complete ==--
+
+   ,,_     -> Snort! <-
+  o"  )~   Version 2.9.20-WIN64 GRE (Build 82)
+   ''''    By Martin Roesch & The Snort Team: http://www.snort.org/contact#team
+           Copyright (C) 2014-2022 Cisco and/or its affiliates. All rights reserved.
+           Copyright (C) 1998-2013 Sourcefire, Inc., et al.
+           Using PCRE version: 8.10 2010-06-25
+           Using ZLIB version: 1.2.11
+
+Commencing packet processing (pid=8760)
